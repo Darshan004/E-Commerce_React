@@ -1,0 +1,13 @@
+var firebaseConfig = {
+    apiKey: "AIzaSyBRFnpwc2BDtySM4zq-ajPt_tMcWAbvPvA",
+    authDomain: "e-commerce-f1237.firebaseapp.com",
+    databaseURL: "https://e-commerce-f1237.firebaseio.com",
+    projectId: "e-commerce-f1237",
+    storageBucket: "e-commerce-f1237.appspot.com",
+    messagingSenderId: "824978648136",
+    appId: "1:824978648136:web:2cab4846a29157e1fffc7d",
+    measurementId: "G-H9GVMC95B1"
+  };
+  // Initialize Firebase
+  firebase.initializeApp(firebaseConfig);
+  firebase.analytics();
